@@ -1,0 +1,7 @@
+{
+  "name": "stc-payment-screen",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
