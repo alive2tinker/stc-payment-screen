@@ -14,8 +14,7 @@
       </ion-header>
 
       <div id="container">
-        <strong>Ready to create an app?</strong>
-        <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+        <ion-button @click="router.push({name: 'payment-screen'})">Make Payment</ion-button>
       </div>
     </ion-content>
   </ion-page>
@@ -23,6 +22,8 @@
 
 <script setup lang="ts">
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
+import { useRouter } from 'vue-router';
+const router = useRouter();
 </script>
 
 <style scoped>

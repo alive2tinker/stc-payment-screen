@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+@layer{
+    .dark-button{
+        --ion-background: rgb(15 23 42)!important;
+        --background: rgb(15 23 42)!important;
+    }
+}
